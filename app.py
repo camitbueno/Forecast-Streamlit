@@ -36,7 +36,7 @@ st.subheader("Modelo interativo de previsão:")
 
 # ========= SELEÇÃO DE PERÍODO =========#
 st.write("### Selecione o Período de Previsão:")
-period_options = ["7 dias", "15 dias", "30 dias", "60 dias", "90 dias"]
+period_options = ["7 dias", "15 dias", "30 dias", "60 dias", "90 dias", "Selecione um período"]
 selected_period = st.selectbox("Escolha o período:", period_options, index=0)  # Padrão: 7 dias
 
 # Centralizando o "OU"
