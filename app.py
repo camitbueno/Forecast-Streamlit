@@ -94,4 +94,4 @@ fig2.update_layout(
     yaxis_title="Valor (R$)",
     hovermode='x unified'
 )
-st.plotly_ch
+st.plotly_chart(fig2)
